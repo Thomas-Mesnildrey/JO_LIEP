@@ -71,7 +71,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     
       if (clicked == true) {
         for(let i=0; i<vidicon.length; i++) {
-            vidicon[i].src='image/clapperboard.png';
+            vidicon[i].src='../image/clapperboard.png';
             clicked = false;       
            }
       }
@@ -79,7 +79,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
       else {
 
       for(let i=0; i<vidicon.length; i++) {
-       vidicon[i].src='image/Cross-mark.png';      
+       vidicon[i].src='../image/Cross-mark.png';      
        clicked = true 
       }
 
